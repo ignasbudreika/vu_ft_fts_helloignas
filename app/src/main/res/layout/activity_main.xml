@@ -21,15 +21,6 @@
         android:layout_centerHorizontal="true"
         app:backgroundTint="#516B94" />
 
-    <Button
-        android:id="@+id/textColorChangeButton"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:text="CHANGE COLOR"
-        android:layout_below="@+id/displayButton"
-        android:layout_centerHorizontal="true"
-        app:backgroundTint="#516B94" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="200dp"
