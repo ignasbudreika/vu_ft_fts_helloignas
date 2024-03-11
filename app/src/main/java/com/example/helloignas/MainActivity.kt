@@ -1,5 +1,6 @@
 package com.example.helloignas
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -15,6 +16,12 @@ class MainActivity : AppCompatActivity() {
 
         showButton.setOnClickListener {
             textView.text = "Hello from Ignas Budreika"
+        }
+
+        var colorChangeButton = findViewById<Button>(R.id.textColorChangeButton)
+
+        colorChangeButton.setOnClickListener {
+            textView.setTextColor(Color.RED)
         }
     }
 }
